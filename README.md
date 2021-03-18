@@ -1,12 +1,6 @@
-# Algorithms, Data Structures and Design Patterns in Typescript.
-
-### About
-
-Brief explanations of common data structures and algorithms as well as their implementations in Typescript...
- 
+# Data Structures & Algorithms In Typescript
 
 ### Status
-
 Ongoing
 
 
