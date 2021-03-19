@@ -1,25 +1,15 @@
+import { IIterable, Consumer, Func } from '../../helpers/Types';
 /**
  * singlyLinkedList
  * @class singlyLinkedList
  */
 
-class node {
-    value: number;
-    next: node | null;
-
-    constructor (value:number) {
-        this.value = value;
-        this.next = null
-    }
+element: any;
+ 
+export interface INode<T> {
+    value: T;
+    next?: INode<T>;
 }
-
-
-class singlyLinkedList {
-    name : string;
-    price : number;
-
-    constructor(...p: Array<any>) {
-        this.name = p[0];
-        this.price = p[1];
-    }
+ 
+class singlyLinkedList<E> {
 }
